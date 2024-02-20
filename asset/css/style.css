@@ -1,9 +1,19 @@
-.parent {
-    border: 5px dashed  rgb(65, 107, 26);
+.grandcarré {
+    border: 5px solid rgb(12, 12, 12);
     padding: 8em;
     width: 200px;
     height: 200px;
     position: relative;
+}
+
+.parent {
+    border: 5px dashed  rgb(65, 107, 26);
+    padding: 5em;
+    width: 200px;
+    height: 200px;
+    top: 90px;
+    right: 1455px;
+    position: absolute;
 }
 .enfant {
     border: 4px dashed  blue;
@@ -11,8 +21,8 @@
     width: 100px;
     height: 100px;
     position: absolute;
-    top: 30px;
-    left: 30px;
+    top: 11%;
+    left: 110px;
 }
 #moncercle{
     background:yellow;
@@ -21,7 +31,7 @@
     height:60px;
     border:2px solid orange; 
     position: absolute;
-    top: 100px;
-    left: 100px;
+    top: 170px;
+    left: 180px;
   }
 
