@@ -1,0 +1,27 @@
+.parent {
+    border: 5px dashed  rgb(65, 107, 26);
+    padding: 8em;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+.enfant {
+    border: 4px dashed  blue;
+    padding: 3em;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+#moncercle{
+    background:yellow;
+    border-radius:50%;
+    width:60px;
+    height:60px;
+    border:2px solid orange; 
+    position: absolute;
+    top: 100px;
+    left: 100px;
+  }
+

@@ -1,0 +1,32 @@
+.visage {
+    position: absolute;
+    width: 500px;
+    height:500px;
+    background-color: green;
+}
+.od {
+    position: relative;
+    width: 100px;
+    height:100px;
+    top: 150px;
+    left: 300px;
+    background-color: black;
+    justify-items: center;
+}
+.og {
+    position: relative;
+    width: 100px;
+    height:100px;
+    top: 50px;
+    left: 100px;
+    background-color: black;
+    justify-items: center;
+}
+.bouche{
+    position: relative;
+    width: 300px;
+    height:100px;
+    top: 100px;
+    left: 100px;
+    background-color: black;
+}
